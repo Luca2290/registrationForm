@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url(img/vecteezy_a-simple-digital-wallpaper-minimalist_30657174.jpg);
+  background-size: cover;
+}
+
+.content {
+  background: rgba(255, 255, 255, 0.5);
+  display: block;
+  margin-top: 150px;
+  margin-left: Auto;
+  margin-right: auto;
+  height: 40em;
+  width: 60%;
+  border-radius: 30px;
+  box-shadow:5px 5px 30px;
+}
+.content h1 {
+  color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+}
+.content h2 {
+  display: inline-block;
+
+  padding-top: 15px;
+  margin-left: 280px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  align-items: center;
+}
+.links a{
+  margin-top: 70px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: rgb(56, 139, 194);
+  font-size: 20px;
+  transition:0.3s ease-in-out;
+}
+.links a:hover{
+    color:#8A507C;
+}

@@ -23,7 +23,7 @@ body {
 }
 
 .navbar {
-  margin-left: 1200px;
+  margin-left: 1300px;
   margin-top: -20px;
 }
 .navbar ul {
@@ -136,3 +136,8 @@ input {
 .fa-x:hover{
   cursor:pointer;
 }
+a {
+  color:white;
+  text-decoration: none;
+}
+ 
